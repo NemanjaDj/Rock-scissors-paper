@@ -1,0 +1,86 @@
+body{
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{    
+    height: 100px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+img:hover {
+    height: 110px;
+    width: 135px;
+}
+
+#marks td{
+    padding: 10px;      
+}
+
+#marks{
+    float: left;
+}
+
+#computer{
+    position: fixed;
+    left: 90%;
+    font-size: 25px;
+}
+
+#playerResult{
+    text-align: center;
+    font-size: 80px;
+    position: fixed;
+    top: 50%;
+    left: 42%;
+}
+
+#computerResult{
+    font-size: 80px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+}
+
+#startMessage{
+    font-size: 25px;
+}
+
+#results > div, #chosenMarks > div{
+    display: inline-block;
+
+}
+
+#userMark{
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 30%;
+    height: 120px;
+    width: 140px;
+    border: 2px solid black;
+}
+
+#computerMark{
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 60%;
+    height: 120px;
+    width: 140px;
+    border: 2px solid black;
+}
+
+#winnerText{
+    text-align: justify;
+    position: fixed;
+    top: 25%;
+    left: 45%;
+    font-size: 30px;
+}

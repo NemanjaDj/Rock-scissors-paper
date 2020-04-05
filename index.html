@@ -1,0 +1,58 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    
+</head>
+<body>
+
+    <div>
+        <table id="marks">
+            <tr>
+                <td>
+                    <p id='startMessage'>Pick your mark</p>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="images/rock.jpg" id="rock" onclick="GetMark(1)"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="images/paper.jpg" id="paper" onclick="GetMark(2)"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="images/scissors.jpg" id="scissors" onclick="GetMark(3)"/>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <p id="computer">Computer</p>
+
+<div id="chosenMarks">
+    <div>
+        <p id="winnerText"></p>
+    </div>
+    <div>
+        <img src="images/scissors.jpg" id="userMark" />
+    </div>
+    <div>
+        <img src="images/scissors.jpg" id="computerMark" />
+    </div>
+</div>
+
+<div id="results">
+    <div>
+        <p id="playerResult">0</p>
+    </div>
+    <div>
+        <p id="computerResult">0</p>
+    </div>
+</div>
+<script src="Index.js"></script>
+</body>
+</html>
